@@ -1,5 +1,5 @@
 {% set name = "hockey_rink" %}
-{% set version = "0.1.8" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/hockey_rink-{{ version }}.tar.gz
-  sha256: 2c3bbb87eef187a05ad10238968f87868e456e020aac0c7c11ce8af84d3a54b1
+  sha256: 75e339a11ebfbc5e197404ed1230efa16c3bea9fa84cac40b6e18960471cc1a4
 
 build:
   noarch: python
@@ -22,7 +22,7 @@ requirements:
     - python >=3.6
     - matplotlib-base
     - numpy
-    - scipy
+    - pillow
 
 test:
   imports:
