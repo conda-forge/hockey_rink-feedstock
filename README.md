@@ -1,11 +1,11 @@
-About hockey_rink
-=================
+About hockey_rink-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/hockey_rink-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/the-bucketless/hockey_rink
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/hockey_rink-feedstock/blob/main/LICENSE.txt)
 
 Summary: A Python library for plotting hockey rinks with Matplotlib.
 
