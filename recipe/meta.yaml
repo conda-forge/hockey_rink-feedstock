@@ -1,5 +1,5 @@
 {% set name = "hockey_rink" %}
-{% set version = "1.0.3" %}
+{% set version = "1.1.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/hockey_rink-{{ version }}.tar.gz
-  sha256: 5dc91dbefc88899c0f842b2e251370d38a456dec88e578f58ba542f05cecc0d8
+  sha256: ea7e1169405fc51bb2152bef4ee20ed48ce65eada9aa01c81a12cf8be8df255a
 
 build:
   noarch: python
